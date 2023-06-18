@@ -276,7 +276,25 @@ max-width: 300px;
     display: none;
   }
 
+ @media(min-width:711px) and (max-width:800px) {
+ .cepaclekun, #gravise-logas , #kadovka1, #kadovka2, #kadovka3, #kadovka4, #kadovka5, #kadovka6, #kadovka7, #kadovka8 , #kadovka9, #kadovka10 {
+max-height: 350px;
+max-width: 350px;
+
+  }
+  #gravise-logas img, #kadovka1 img, #kadovka2 img, #kadovka3 img, #kadovka4 img, #kadovka5 img, #kadovka6 img, #kadovka7 img, #kadovka8 img, #kadovka9 img, #kadovka10 img {
+max-height: 350px;
+max-width: 350px;
+  }
+  .kupevo_bloka {
+    max-height: 350px;
+    max-width: 350px;
+  }
+  .gallery__title , .gallery__title_two {
+    max-width: 300px;
+  }
   
+} 
 }
 @media(min-width:390px) and (max-width:500px) {
   .header, .main .wrapper {
