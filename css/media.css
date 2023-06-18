@@ -377,4 +377,9 @@ right: 50px;
     display: none;
   }
 }
-
+@media (min-width:300px)and (max-width:389px) {
+  .main__img img {
+max-height: 140px;
+width: 140px;
+  }
+}
